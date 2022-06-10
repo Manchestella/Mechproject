@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>딸기가 좋아!</title>
+        <style>
+            body{
+                font-family: 'establishRetrosansOTF';
+                background-color: bisque;
+            }
+
+             @font-face {
+                font-family: 'establishRetrosansOTF';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            } 
+
+            #Question{
+                font-size: 30px;
+                background-color: rgba(255, 255, 102, 0.4);
+            }
+        </style>
+    </head>
+    <body>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/g7flEN6-Lc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br><br><br><br>
+        <div id = "Question">당신은 딸기게임을 하고 있습니다. <br>딸기를 여덟번까지 외치고 다시 당신에게 순서가 돌아왔습니다! <br>이때 당신의 행동은?</div>
+        <input type = "button" value = "1. 8번까지 갔으니까 처음부터! 딸기를 한 번만 외친다!" onclick = 
+        "alert('틀렸습니다! 여덟번까지 갔다면 다시 한번씩 줄어야 합니다. 고로 당신이 외쳐야 할 횟수는 7번!')"><br>
+        <input type = "button" value = "2. 한번씩 줄어들어야지! 딸기는 7번 외쳐야 한다!" onclick =
+        "alert('정답입니다! 다시 하나씩 줄어드는게 딸기게임의 규칙! 이제 딸기게임으로 술마실 일은 없을겁니다!')"><br>
+        <input type = "button" value = "3. 계속 늘어나야지! 9번 외치자!" onclick =
+        "alert('틀렸습니다! 행동은 어떻게 하실건가요?? 딸기게임은 총 여덟번까지입니다!!')">
+    </body>
+</html>
